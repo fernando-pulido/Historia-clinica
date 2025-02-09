@@ -1,9 +1,9 @@
-import PersonalData from './components/Forms/PersonalData/PersonalData'
+import LayoutComponent from './layout/Layout'
 
 function App() {
   return (
     <>
-      <PersonalData />
+      <LayoutComponent />
     </>
   )
 }
