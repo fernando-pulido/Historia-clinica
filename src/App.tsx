@@ -1,9 +1,9 @@
-import './App.css'
+import LayoutComponent from './layout/Layout'
 
 function App() {
   return (
     <>
-      <h1>Historias Clinicas Fisio</h1>
+      <LayoutComponent />
     </>
   )
 }
