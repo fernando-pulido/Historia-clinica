@@ -16,7 +16,7 @@ const api = () => {
 
   return (
     <div>
-      <h2>Personajes Rick & Morty</h2>
+      <h2>Pacientes </h2>
       {characters.map(patients => (
         <div key={patients.id}>
           <img src={patients.image} alt={patients.name} width={100} />
