@@ -1,10 +1,9 @@
-/* eslint-disable react-hooks/rules-of-hooks */
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 
 type Character = { id: number; name: string; image: string }
 
-const api = () => {
+const Api = () => {
   const [characters, setCharacters] = useState<Character[]>([])
 
   useEffect(() => {
@@ -27,4 +26,4 @@ const api = () => {
   )
 }
 
-export default api
+export default Api
