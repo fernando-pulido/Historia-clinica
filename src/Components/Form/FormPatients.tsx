@@ -1,3 +1,4 @@
+import './FormPatients.css'
 type FormPatientsProps = {
   name: string
   image: string

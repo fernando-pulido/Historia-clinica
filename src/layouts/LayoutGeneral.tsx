@@ -1,17 +1,16 @@
 import React from 'react'
 import { Flex, Layout } from 'antd'
 
-import Api from '../api/api'
+import TabsLayout from './TabsLayout'
 
 import './LayoutGeneral.css'
-import TabsLayout from './TabsLayout'
 
 const { Header, Footer, Content } = Layout
 
 const LayoutGeneral: React.FC = () => (
   <Flex gap="middle" wrap>
     <Layout className="layout-container">
-      <Header className="header">Historias Clinicas</Header>
+      <Header className="header">Historia Clinica</Header>
       <Content className="content">
         <TabsLayout />
       </Content>

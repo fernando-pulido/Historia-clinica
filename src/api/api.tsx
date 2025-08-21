@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 import FormPatients from '../Components/Form/FormPatients'
+import './Api.css'
 
 type Character = { id: number; name: string; image: string }
 
@@ -15,8 +16,7 @@ const Api = () => {
   }, [])
 
   return (
-    <div>
-      <h2>Pacientes </h2>
+    <div className="patients-container">
       {characters.map(patients => (
         <FormPatients
           key={patients.id}

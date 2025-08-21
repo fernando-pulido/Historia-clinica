@@ -1,0 +1,15 @@
+.card {
+  border: 2px solid black; /* Borde negro */
+
+  transition: transform 0.2s ease-in-out;
+  margin: 16px;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.03); /* efecto suave al pasar el mouse */
+}
+
+.card-img-top {
+  border-bottom: 2px solid black; /* Borde entre imagen y contenido */
+}

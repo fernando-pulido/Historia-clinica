@@ -1,0 +1,11 @@
+.patients-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 3 columnas iguales */
+  gap: 20px;
+  padding: 20px;
+}
+
+.patients-container h2 {
+  grid-column: span 3;
+  text-align: center;
+}
