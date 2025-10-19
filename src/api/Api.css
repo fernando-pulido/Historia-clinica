@@ -1,6 +1,6 @@
 .patients-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 3 columnas iguales */
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
   gap: 20px;
   padding: 20px;
 }

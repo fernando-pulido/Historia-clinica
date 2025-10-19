@@ -1,24 +1,18 @@
+import { Card } from 'antd'
+
 import './FormPatients.css'
+
 type FormPatientsProps = {
   name: string
   image: string
 }
 
-const FormPatients = ({ name, image }: FormPatientsProps) => {
-  return (
-    <div>
-      <div className="card">
-        <img src={image} className="card-img-top" alt={name} />
-        <div className="card-body">
-          <h5 className="card-title">{name}</h5>
-          <p className="card-text">paciente registrado en el sistema</p>
-          <a href="#" className="btn btn-primary">
-            ver detalles
-          </a>
-        </div>
-      </div>
-    </div>
-  )
-}
+const { Meta } = Card
+
+const FormPatients = ({ name, image }: FormPatientsProps) => (
+  <Card style={{ width: 240 }} cover={<img alt="example" src={image} />}>
+    <Meta title={name} description="www.instagram.com" />
+  </Card>
+)
 
 export default FormPatients
